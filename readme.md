@@ -7,26 +7,28 @@
 
 ## Api ads (logged)
 - **Create ads:** 
-	``` - url: /api/ads/create
-	param (form data):
+	*url: /api/ads/create
+	```param (form data):
 		+ ads_name (text)
 		+ ads_description (text)
 		+ status (int)
 	```
 - **List ads:** 
-	``` url: /api/ads/```
+	*url: /api/ads/
+	``` ```
 - **Update ads:** 
-	``` - url: /api/ads/update/{id}
-	param (form data):
+	*url: /api/ads/update/{id}
+	```param (form data):
 		+ ads_name (text)
 		+ ads_description (text)
 		+ status (int)
 	```
 - **Get item ads:** 
-	``` url: /api/ads/{id} ```
+	*url: /api/ads/{id}
+	```  ```
 - **Search ads:** 
-	``` - url: /api/ads/search
-	- param (form data):
+	*url: /api/ads/search
+	```param (form data):
 		+ query (text)
 		+ key (text)
 	```
