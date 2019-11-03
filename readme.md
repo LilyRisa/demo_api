@@ -32,6 +32,6 @@
 	*url: [/api/ads/search](https://fb.com/bo.cuaban.7169)
 	```
 	param (form data):
-		+ query (text)
-		+ key (text)
+		+ query (text) : query search
+		+ key (text) : column DB
 	```
