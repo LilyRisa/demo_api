@@ -7,7 +7,7 @@
 
 ## Api ads (logged)
 - **Create ads:** 
-	``` url: /api/ads/create
+	``` - url: /api/ads/create
 	param (form data):
 		+ ads_name (text)
 		+ ads_description (text)
@@ -16,7 +16,7 @@
 - **List ads:** 
 	``` url: /api/ads/```
 - **Update ads:** 
-	``` url: /api/ads/update/{id}
+	``` - url: /api/ads/update/{id}
 	param (form data):
 		+ ads_name (text)
 		+ ads_description (text)
@@ -25,8 +25,8 @@
 - **Get item ads:** 
 	``` url: /api/ads/{id} ```
 - **Search ads:** 
-	``` url: /api/ads/search
-	param (form data):
+	``` - url: /api/ads/search
+	- param (form data):
 		+ query (text)
 		+ key (text)
 	```
