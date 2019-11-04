@@ -17,12 +17,21 @@ Route::post('user/register', 'UserController@register');
 
 Route::group(['middleware' => 'auth:api'], function() {
     Route::get('user','UserController@index');
-    
+
     Route::group(['prefix'=>'ads'], function(){
     	Route::get('/','AdsController@index');
     	Route::post('/create','AdsController@create');
     	Route::post('/update/{id}','AdsController@update');
     	Route::get('/{id}','AdsController@show');
     	Route::post('/search','AdsController@search');
+	});
+	
+	Route::group(['prefix' => 'app'], function(){
+		Route::get('/','AppController@index');
+		Route::post('/create','AppController@create');
+		Route::post('/update/{id}','AppController@update');
+		Route::get('/{id}','AppController@show');
+		Route::post('/search','AppController@search');
+
 	});
 });
