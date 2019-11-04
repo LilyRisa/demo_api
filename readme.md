@@ -15,7 +15,7 @@
 		+ status (int)
 	```
 - **List ads:** 
-	*url: [/api/ads/](https://fb.com/bo.cuaban.7169)
+	*url: [/api/ads/](https://fb.com/bo.cuaban.7169)*
 	``` ```
 - **Update ads:** 
 	*url: [/api/ads/update/{id}](https://fb.com/bo.cuaban.7169)*
@@ -26,7 +26,7 @@
 		+ status (int)
 	```
 - **Get item ads:** 
-	*url: [/api/ads/{id}](https://fb.com/bo.cuaban.7169)
+	*url: [/api/ads/{id}](https://fb.com/bo.cuaban.7169)*
 	```  ```
 - **Search ads:** 
 	*url: [/api/ads/search](https://fb.com/bo.cuaban.7169)*
@@ -37,7 +37,8 @@
 	```
 
 ## Api app (logged)
-*url: [/api/app/create](https://fb.com/bo.cuaban.7169)*
+- **Create app:**
+	*url: [/api/app/create](https://fb.com/bo.cuaban.7169)*
 	```
 	param (form data):
 		+ ads_name (text)
@@ -45,7 +46,7 @@
 		+ status (int)
 	```
 - **List app:** 
-	*url: [/api/app/](https://fb.com/bo.cuaban.7169)
+	*url: [/api/app/](https://fb.com/bo.cuaban.7169)*
 	``` ```
 - **Update app:** 
 	*url: [/api/app/update/{id}](https://fb.com/bo.cuaban.7169)*
@@ -79,7 +80,7 @@
 		+ status (tinyint)
 	```
 - **Get item app:** 
-	*url: [/api/app/{id}](https://fb.com/bo.cuaban.7169)
+	*url: [/api/app/{id}](https://fb.com/bo.cuaban.7169)*
 	```  ```
 - **Search app:** 
 	*url: [/api/app/search](https://fb.com/bo.cuaban.7169)*
