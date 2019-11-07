@@ -1,0 +1,15 @@
+Vagrant.configure("2") do |config|
+  config.vm.box = "CentosBox/Centos-7-v7.4-Web-Server-CLI-Apache2.4-PHP7"
+  config.vm.box_version = "17.11.24"
+
+  config.vm.network "private_network", ip: "192.168.33.11"
+  config.vm.network "public_network", ip: "192.168.0.200"
+  
+  #config.ssh.private_key_path = "~/.ssh/id_rsa"
+  config.ssh.insert_key = false
+
+config.vm.synced_folder "../api_d101k9", "/var/www/html", :mount_options => ["dmode=777","fmode=777"] 
+config.vm.network "forwarded_port", guest: 80, host: 8891
+#config.vm.provision "shell", path: "provision.sh"
+
+end

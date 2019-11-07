@@ -1,0 +1,1 @@
+{"virtualbox":{"/var/www/html":{"mount_options":["dmode=777","fmode=777","uid=1000","gid=1000"],"guestpath":"/var/www/html","hostpath":"L:/xampp/htdocs/api_d101k9","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"L:/xampp/htdocs/api_d101k9","disabled":false,"__vagrantfile":true}}}

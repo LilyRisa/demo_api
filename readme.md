@@ -47,7 +47,6 @@
 	```
 - **List app:** 
 	*url: [/api/app/](https://fb.com/bo.cuaban.7169)*
-	``` ```
 - **Update app:** 
 	*url: [/api/app/update/{id}](https://fb.com/bo.cuaban.7169)*
 	```
@@ -81,7 +80,6 @@
 	```
 - **Get item app:** 
 	*url: [/api/app/{id}](https://fb.com/bo.cuaban.7169)*
-	```  ```
 - **Search app:** 
 	*url: [/api/app/search](https://fb.com/bo.cuaban.7169)*
 	```
